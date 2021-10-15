@@ -1,0 +1,155 @@
+
+.About{
+  margin:10px 0;
+    padding: 20px;
+    background-color:#e6e8eb;
+}
+.about-main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+/* .about.img {
+  width: 600px;
+  height: 500px;
+} */
+
+img{
+  height: 400px;
+  width: 600px;
+  margin-right: 10px;
+  padding: 10px;
+ 
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.why{
+  
+  padding: 5px;
+  margin: 5px;
+ 
+}
+.why-img{
+  
+  height: 400px;
+  width: 600px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.quality-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.quality-img{
+  height: 400px;
+  width: 600px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.infra-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+
+/* .quality{
+  flex:1;
+  padding: 5px;
+  margin: 5px;
+  
+} */
+
+.infra{
+  
+  padding: 5px;
+  margin: 5px;
+   
+}
+.infra-img{
+  
+  height: 400px;
+  width: 600px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+@media(max-width:970px){
+  img{
+    height: 400px;
+    width: 400px;
+    margin-right: 10px;
+    padding: 10px;
+   
+  }
+  .about-container{
+    display:block;
+}
+  .why-img{
+    flex:1;
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .quality-img{
+    flex:1;
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .infra-img{
+    flex:1;
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+}
+
+@media (max-width:768px){
+  .about-main{
+    display:block;
+        
+  }
+  img{
+    height: auto;
+    width: 100%;
+   margin: auto;   
+   
+  }
+  .about-container{
+    display:block;
+}
+.why-img{
+  height: auto;
+    width: 100%;
+   margin: auto;
+}
+.quality-container{
+  display:block;
+}
+.quality-img{
+  height: auto;
+    width: 100%;
+   margin: auto;
+}
+.infra-container{
+  display:block;
+}
+.infra-img{
+  height: auto;
+    width: 100%;
+   margin: auto;
+}
+}
